@@ -1,0 +1,77 @@
+/* Slider Panel */
+.slider-panel {
+  position: relative; 
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.slider-panel.closed {
+  max-height: 0;
+  opacity: 0;
+}
+
+.slider-panel.open {
+  max-height: 1000px;
+  opacity: 1;
+}
+
+.slider-inner {
+  background: #fff;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.slider-head h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* Close Button */
+.slider-head .btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* Inputs */
+form input,
+form select,
+form textarea {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95rem;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #ff9800;
+  box-shadow: 0 0 5px rgba(255, 152, 0, 0.5);
+}
+
+/* Submit Button */
+.btn.primary {
+  background-color: #ff9800;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn.primary:hover {
+  background-color: #e68a00;
+}
+
+/* Table styles remain same */

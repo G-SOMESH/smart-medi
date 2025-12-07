@@ -1,0 +1,74 @@
+.admin-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.admin-table th {
+  text-align: left;
+  padding: 12px;
+  background: #f8f9fa;
+  font-weight: 600;
+}
+
+.admin-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Status badges */
+.status-badge {
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.status-badge.approved {
+  background: #c3f7d1;
+  color: #0b8f3a;
+}
+
+.status-badge.pending {
+  background: #ffe89a;
+  color: #b88700;
+}
+
+.status-badge.rejected {
+  background: #ffb3b3;
+  color: #b30000;
+}
+
+/* Buttons */
+.action-buttons button {
+  margin-right: 8px;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.approve-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.reject-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.delete-btn {
+  background: #374151;
+  color: white;
+}

@@ -1,0 +1,107 @@
+
+
+/* Background Image */
+.reg-bg {
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  backdrop-filter: blur(2px);
+}
+
+/* Card */
+.reg-card {
+  width: 450px;
+  background: rgba(255, 255, 255, 0.92);
+  padding: 35px;
+  border-radius: 14px;
+
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.25);
+
+  animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Title */
+.reg-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #1e2952;
+}
+
+/* Form Inputs */
+.reg-form input,
+.reg-form select,
+.reg-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+
+  font-size: 15px;
+  outline: none;
+
+  transition: 0.2s ease;
+}
+
+.reg-form input:focus,
+.reg-form select:focus,
+.reg-form textarea:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Textarea */
+.reg-form textarea {
+  resize: none;
+  height: 70px;
+}
+
+/* Register Button */
+.reg-btn {
+  width: 100%;
+  padding: 12px;
+
+  background: linear-gradient(90deg, #6a11cb, #2575fc);
+  border: none;
+  border-radius: 8px;
+
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.reg-btn:hover {
+  opacity: 0.9;
+}
+
+/* Login link */
+.reg-login-text {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.reg-link-btn {
+  border: none;
+  background: none;
+  color: #2575fc;
+  cursor: pointer;
+  font-weight: bold;
+}
