@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-import Header from "./components/Header";
-import Login from "./components/Login";
-import Registration from "./components/Registration";
+import Header from "./frontend/components/Header";
+import Login from "./frontend/components/Login";
+import Registration from "./frontend/components/Registration";
 
-import DoctorDashboard from "./doctor/DoctorDashboard";
-import UserDashboard from "./user/UserDashboard";
+import DoctorDashboard from "./frontend/doctor/DoctorDashboard";
+import UserDashboard from "./frontend/user/UserDashboard";
 
-import { isAuthenticated } from "./utils/auth";
+import { isAuthenticated } from "./frontend/utils/auth";
 
 export default function App() {
   const [user, setUser] = useState(isAuthenticated());
